@@ -2,7 +2,10 @@
 
 const Policy=()=> {
     return (
-      <div className="m-1 p-1 max-w-xl">
+      <div className="flex justify-center mx-auto p-1 max-w-2xl">
+        <head>
+        <title>プライバシーポリシー</title>
+        </head>
         <main className="container m-1 text-gray-900 bg-white p-1">
             <h1 className='flex justify-center text-4xl p-1 mb-2 bg-blue-300'>プライバシーポリシー</h1>
             <h2>第1条（個人情報）</h2>
@@ -10,7 +13,7 @@ const Policy=()=> {
               「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及びマイナンバーなどの当該情報単体から特定の個人を識別できる情報（個人識別情報）を指します。
             </p><br/>
             <h2>第2条（個人情報を収集・利用する目的）</h2>
-            <p>当サイトが個人情報を収集・利用する目的は，以下のとおりです。</p>
+            <p>当サービスが個人情報を収集・利用する目的は，以下のとおりです。</p>
             <span ><ol className="p-1 list-disc">
               <li>当サービスの提供・運営のため</li>
               <li>
