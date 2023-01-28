@@ -2,7 +2,7 @@
 
 const Policy=()=> {
     return (
-      <div className="m-1 p-1">
+      <div className="m-1 p-1 max-w-xl">
         <main className="container m-1 text-gray-900 bg-white p-1">
             <h1 className='flex justify-center text-4xl p-1 mb-2 bg-blue-300'>プライバシーポリシー</h1>
             <h2>第1条（個人情報）</h2>
